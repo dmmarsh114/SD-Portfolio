@@ -1,27 +1,8 @@
 .navbar {
-    height: 10vh;
-    width: 100%;
-    background: var(--white);
+    font-family: var(--header-font);
     position: fixed;
     top: 0;
-}
-
-.navbar button {
-    height: 10vh;
-    margin: 0;
-    float: right;
-
-    background-color: inherit;
-    border: thin solid transparent;
-    padding: 10px;
-    font-family: var(--header-font);
-}
-
-.navbar button:hover {
-    background-color: var(--drk-gray);
-    color: white;
-}
-
-#brand {
-    float: left;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 0px 8px 8px rgba(0, 0, 0, 0.178);
 }
