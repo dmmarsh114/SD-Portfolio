@@ -1,0 +1,28 @@
+.header {
+    margin: 15vh 40px;
+    font-family: var(--header-font);
+}
+
+.header h3 {
+    margin-top: 5px;
+    margin-left: 25px;
+    font-style: italic;
+}
+
+.sub-header {
+    animation-name: header-scroll;
+    animation-duration: 4s; /* animation duration has to match iterval time in headerScroll.js! */
+    animation-iteration-count: infinite;
+}
+
+@keyframes header-scroll {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

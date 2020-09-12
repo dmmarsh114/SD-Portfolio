@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Roboto&display=swap');
+
+:root {
+    --header-font: 'Kufam', cursive;
+    --body-font: 'Roboto', sans-serif;
+
+    --drk-teal: #3e6e7a;
+    --drk-gray: #879ca3;
+    --white: #c9c9ce;
+    --tan: #b3a8a0;
+    --purple: #636277;
+}

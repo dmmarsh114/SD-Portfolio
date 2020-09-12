@@ -1,0 +1,20 @@
+@import './vars.css';
+@import './navbar.css';
+@import './header.css';
+@import './projects.css';
+@import './aboutme.css';
+@import './contact.css';
+
+body {
+    background: linear-gradient(
+        var(--drk-gray) 0%,
+        var(--drk-teal) 100%
+    ) no-repeat;
+  
+  color: white;
+  
+  margin: 0;
+  height: 100vh;
+
+  font-family: var(--body-font);
+}
