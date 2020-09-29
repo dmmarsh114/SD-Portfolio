@@ -6,13 +6,12 @@
 @import './contact.css';
 @import './footer.css';
 
-body {
-    background: var(--white);
-  
-  color: black;
+body {  
+  color: var(--orange);
   
   margin: 0;
   height: 100vh;
+  overflow-x: hidden;
 
   font-family: var(--body-font);
 }

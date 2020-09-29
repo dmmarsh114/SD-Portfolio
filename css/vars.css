@@ -1,14 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Kufam&family=Roboto&display=swap');
 
-:root {
-    --header-font: 'Kufam', cursive;
-    --body-font: 'Roboto', sans-serif;
+@font-face {
+  font-family: bettynoir;
+  src: url('../assets/fonts/bettynoir.ttf');
+}
 
-    /* https://www.color-hex.com/color-palette/32023 */
-    --drkblue: #565ba3;
-    --blue: #7db4dd;
-    --lgblue: #86eef6;
-    --mint: #7bffac;
-    --yellow: #e0ff6a;
-    --white: #f0eff7;
+@font-face {
+  font-family: grenadier;
+  src: url('../assets/fonts/GrenadierNF.otf');
+}
+
+@font-face {
+  font-family: ironick;
+  src: url('../assets/fonts/IronickNF.otf');
+}
+
+:root {
+    --header-font: grenadier, sans-serif;
+    --body-font: ironick, sans-serif;
+    
+    /* --header-font: 'Kufam', cursive;
+    --body-font: 'Roboto', sans-serif; */
+
+    /* Blue and Orange color palette */    
+    --drk-blue: #272C48;
+    --off-blue: #52566D;
+    --orange: #FF4F19;
+    /* --orange: #ED5A14; */
+    --bg-white: #F2F2F2;   
 }

@@ -1,15 +1,36 @@
 .header {
-    margin: 15vh 40px;
-    font-family: var(--header-font);
-    height: 100vh;
-    text-align: center;
-    padding-top: 100px;
+    height: 90vh;
+    overflow-y: hidden;
+    background: var(--drk-blue);
 }
 
-.sub-header {
-    font-size: 32px;
+.header-text-container {
+    width: 100%;
+    padding-left: 50px;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.header-text {
+    max-width: 500px;
+    position: relative;
+    left: 0;
+    transform: rotate(-15deg);    
+    font-family: var(--header-font);
+    color: var(--bg-white);
+    text-align: center;
+}
+
+.title {
+    letter-spacing: .1em;
+    font-size: 5em;
+}
+
+.sub-title {
+    font-family: var(--body-font);
+    font-size: 3em;
     font-style: italic;
-    animation-name: header-scroll;
+    /* animation-name: header-scroll; */
     animation-duration: 4s; /* animation duration has to match iterval time in headerScroll.js! */
     animation-iteration-count: infinite;
 }
@@ -24,4 +45,17 @@
     100% {
         opacity: 0;
     }
+}
+
+.planet {
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    position: absolute;
+    right: -700px;
+    bottom: 0px;
+}
+
+.planet img {
+    transform: scaleX(-1)  rotate(-60deg);
 }
