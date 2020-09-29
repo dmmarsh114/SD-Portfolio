@@ -4,9 +4,10 @@
     --header-font: 'Kufam', cursive;
     --body-font: 'Roboto', sans-serif;
 
-    --drk-teal: #3e6e7a;
-    --drk-gray: #879ca3;
-    --white: #c9c9ce;
-    --tan: #b3a8a0;
-    --purple: #636277;
+    --drkblue: #565ba3;
+    --blue: #7db4dd;
+    --lgblue: #86eef6;
+    --mint: #7bffac;
+    --yellow: #e0ff6a;
+    --white: #f0eff7;
 }

@@ -4,14 +4,12 @@
 @import './projects.css';
 @import './aboutme.css';
 @import './contact.css';
+@import './footer.css';
 
 body {
-    background: linear-gradient(
-        var(--drk-gray) 0%,
-        var(--drk-teal) 100%
-    ) no-repeat;
+    background: var(--white);
   
-  color: white;
+  color: black;
   
   margin: 0;
   height: 100vh;
