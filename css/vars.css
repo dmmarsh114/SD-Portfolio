@@ -1,9 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kufam&family=Roboto&display=swap');
-
-@font-face {
-  font-family: bettynoir;
-  src: url('../assets/fonts/bettynoir.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 @font-face {
   font-family: grenadier;
@@ -16,11 +11,9 @@
 }
 
 :root {
-    --header-font: grenadier, sans-serif;
-    --body-font: ironick, sans-serif;
-    
-    /* --header-font: 'Kufam', cursive;
-    --body-font: 'Roboto', sans-serif; */
+    /* --header-font: grenadier, sans-serif; */
+    --header-font: ironick, sans-serif;
+    --body-font: 'Josefin Sans', sans-serif;
 
     /* Blue and Orange color palette */    
     --drk-blue: #272C48;

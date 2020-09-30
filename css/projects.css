@@ -2,3 +2,43 @@
   height: 400px;
   width: 400px;
 }
+
+.project-list {
+  list-style-type: none;
+}
+
+.project-card {
+  background-color: var(--bg-white);
+  margin: 50px;
+  padding: 30px;
+  border-radius: 15px;
+  /* display: flex;
+  flex-flow: column wrap; */
+}
+
+.project-title {
+  font-size: 32px;
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.project-content-r, .project-content-l {
+  display: flex;
+}
+
+.project-content-r {
+  flex-direction: row-reverse;
+}
+
+.project-text {
+  color: black;
+  font-size: 24px;
+  padding: 30px;
+}
+
+.project-img {
+  width: 400px;
+  height: auto;
+  margin: 10px;
+}

@@ -7,6 +7,8 @@
 @import './footer.css';
 
 body {  
+
+
   color: var(--orange);
   
   margin: 0;
@@ -14,4 +16,21 @@ body {
   overflow-x: hidden;
 
   font-family: var(--body-font);
+}
+
+.section-header {
+  font-size: 48px;
+  text-align: center;
+  padding-top: 40px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--orange);
+}
+
+.gradient-background {
+  background: linear-gradient(var(--drk-blue), var(--bg-white) 20%, var(--off-blue));
+  /* background: linear-gradient(var(--drk-blue), var(--bg-white) 20%, rgb(121, 215, 247)); */
+  background-repeat: no-repeat;
+  background-size: cover;
 }

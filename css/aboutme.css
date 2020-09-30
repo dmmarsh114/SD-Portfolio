@@ -1,0 +1,11 @@
+.about-me {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.about-me p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
